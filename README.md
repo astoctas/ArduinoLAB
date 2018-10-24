@@ -30,7 +30,8 @@ The available classes are:
 #### For I2C device registers
 - ArduinoLAB.I2C.REG
 
-As digital reporting is asynchronous, there is an event to handle it.
+### Events
+As digital reporting is asynchronous, there is an event to handle it:
 
 ```c+
 digitalEvent(int[] data)
