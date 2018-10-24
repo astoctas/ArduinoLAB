@@ -1,7 +1,9 @@
 # ArduinoLAB
 Processing Library to communicate with Arduino oriented to science and robotics laboratory use.
 
-This library uses Firmata protocol, includes i2c communication and is class oriented, so you have a separate variable for each device, ex:
+This library uses Firmata protocol, Arduino needs to have been loaded with StandardFirmata sketch.
+
+Also includes i2c communication and is class oriented, so you have a separate variable for each device, ex:
 
 ```c++
 ArduinoLAB arduino;
