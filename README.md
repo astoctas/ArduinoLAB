@@ -19,15 +19,15 @@ a.write(128);
 
 The available classes are:
 
-For analog read and write
+#### For analog read and write
 - ArduinoLAB.ANALOG
-For digital read and write
+#### For digital read and write
 - ArduinoLAB.DIGITAL
-For servos
+#### For servos
 - ArduinoLAB.SERVO
-For I2C devices
+#### For I2C devices
 - ArduinoLAB.I2C
-For I2C device registers
+#### For I2C device registers
 - ArduinoLAB.I2C.REG
 
 As digital reporting is asynchronous, there is an event to handle it.
